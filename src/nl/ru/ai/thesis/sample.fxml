@@ -10,7 +10,7 @@
       <Label text="Word Counter" />
       <HBox alignment="CENTER" prefHeight="377.0" prefWidth="471.0" spacing="6.0">
             <Label text="URL" />
-            <TextField prefHeight="14.0" prefWidth="161.0" />
+            <TextField fx:id="url_field" prefHeight="14.0" prefWidth="161.0" />
       </HBox>
       <Button mnemonicParsing="false" onAction="#countWords" text="Let's Count" />
 </VBox>
